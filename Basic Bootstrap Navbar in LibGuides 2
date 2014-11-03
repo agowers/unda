@@ -1,0 +1,24 @@
+<div  class="container  special ">
+	<nav class="navbar navbar-inverse " role="navigation">		
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-name">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#">Your Brand info</a>
+		</div>		
+		<!-- Collect the nav links, forms, and other content for toggling -->		
+		<div class="collapse navbar-collapse" id="navbar-name">					
+			<div id="s-lg-tabs-container" class=" s-lib-side-borders ">
+			    <div id="s-lg-guide-tabs" class="tabs"	>
+						<ul class="nav navbar-nav navbar-left">
+							{{guide_nav}}
+						</ul>
+					</div>
+			</div>
+		</div>	
+	</nav>
+</div>
